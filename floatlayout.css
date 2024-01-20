@@ -1,0 +1,102 @@
+.head1
+{
+background: #c4baba;
+width: 20%;
+height: 80px;
+text-align: center;
+color: #f0e3e3;
+font-style: italic;
+
+
+}
+.head2
+{
+background: #550202;
+width: 80%;
+height: 80px;
+text-align: center;
+color: #f0e3e3;
+font-style: italic;
+
+
+}
+.menu
+{
+    background: #a32b2b;
+    width: 100%;
+    height: 70px;;
+    float: left;
+    text-align: center;
+color: #f0e3e3;
+font-style: italic;
+
+}
+.sec1
+{
+    background: #f30404;
+    width: 33%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    color: #f0e3e3;
+    font-style: italic;
+
+}
+
+.sec2
+{
+    background: #ac9c9c;
+    width: 33%;
+    height: 150px;
+    float: right;
+    text-align: center;
+    color: #f0e3e3;
+    font-style: italic;
+
+}
+.sec3
+{
+    background: #924949;
+    width: 34%;
+    height: 150px;
+    float: right;
+    text-align: center;
+    color: #f0e3e3;
+    font-style: italic;
+
+}
+
+.pgcont{
+    background: #643d3d;
+    width: 80%;
+    height: 300px;
+    float: right;
+    text-align: center;
+    color: #f0e3e3;
+    font-style: italic;
+
+
+}
+.sidebar
+{
+    background: #924949;
+    width: 20%;
+    height: 300px;
+    float: right;
+    text-align: center;
+    color: #f0e3e3;
+    font-style: italic;
+
+
+}
+.foot
+{
+    background: #b4aaaa;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    clear: both;
+    color: #f0e3e3;
+    font-style: italic;
+
+}
