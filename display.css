@@ -1,0 +1,55 @@
+
+p{
+    width: 400px;
+    height:200px;
+    border:  2px solid rgb(201, 41, 23);
+    overflow: scroll;
+}
+a
+{
+    text-decoration: none; 
+    padding: 20px;
+    display:inline-block; 
+    align-items: center;
+    margin-left: 40px;
+    color: rgb(245, 234, 234);
+}
+a:hover{
+    background-color:rgb(172, 70, 70);
+    border-radius: 15px;
+    height: 8px;
+}
+nav{
+    position: sticky;
+    top: 5%;
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 25%;
+    padding: 15px;
+    background-color: rgb(206, 137, 137);
+    outline: 20px double crimson;
+    /* box-shadow: 8px 8px; */
+}
+
+.box1
+{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 40%;
+    border-radius:  10px;
+
+}
+.box2
+{
+    background-color: red; 
+    width: 90px;
+    height:90px;
+    margin: 20px;
+    border-radius:  10px;
+
+}

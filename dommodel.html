@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <input type="text" id="inp">
+<button onclick="toDo()">Submit</button>
+    <script>
+        
+        function toDo(){
+            let good = (document.getElementById("inp")).value
+            let ulist = document.createElement("ul")
+            let list = document.createElement("li")
+            list.textContent = good
+        }
+    </script>
+</body>
+</html>

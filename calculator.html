@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+}
+.screen {
+  width: 93%;
+  font-size: 40px;
+  height: 80px;
+  background-color: #252525;
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+button {
+  height: 60px;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  font-size: 30px;
+  color: #333;
+  
+}
+  .keys {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+} 
+
+    </style>
+</head>
+    <body> 
+  
+        <div class="calculator">
+
+            <input type="text" class="screen" value="0" >
+          
+            <div class="keys">
+          
+              <button type="button" >+</button>
+              <button type="button" >-</button>
+              <button type="button" >*</button>
+              <button type="button" >/</button>
+          
+              <button type="button" >7</button>
+              <button type="button" >8</button>
+              <button type="button" >9</button>
+          
+          
+              <button type="button" >4</button>
+              <button type="button" >5</button>
+              <button type="button" >6</button>
+          
+          
+              <button type="button" >1</button>
+              <button type="button" >2</button>
+              <button type="button" >3</button>
+          
+          
+              <button type="button" >0</button>
+              <button type="button" >.</button>
+              <button type="button" >AC</button>
+              <button type="button" >C</button>
+              <button type="button" value="=">=</button>
+          
+            </div>
+          </div>
+</body>
+</html>

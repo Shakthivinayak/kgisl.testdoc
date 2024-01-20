@@ -1,0 +1,31 @@
+
+.div1{
+    background:rgb(137, 179, 137);
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.div2{
+    background:rgb(137, 179, 137);
+    width: 240px;
+    height: 240px;
+    border: 20px solid rgb(32, 65, 32);
+    float: left;
+}
+.div3{
+    background:rgb(137, 179, 137);
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    border: 20px solid rgb(32, 65, 32);
+    float: left;
+}
+.div4{
+    background:rgb(137, 179, 137);
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid rgb(32, 65, 32);
+    float: left;
+}

@@ -1,0 +1,33 @@
+.list1>li
+{
+    list-style-type: upper-roman;
+    margin: 20px;
+}
+.list1>ol>li{
+    list-style-type: upper-alpha;
+}
+.list1>ol>ol>li
+{
+    list-style-type: upper-roman;
+}
+.margin1
+{
+    background-color: blue;
+    width: 20px;
+    height: 800px;
+    float: left;
+}
+.margin2
+{
+    background-color: rgb(255, 0, 170);
+    width: 10px;
+    height: 800px;
+    float: left;
+}
+.margin3
+{
+    background-color: rgb(231, 231, 236);
+    width: 5px;
+    height: 600px;
+    float: left;
+}

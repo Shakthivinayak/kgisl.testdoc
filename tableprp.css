@@ -1,0 +1,29 @@
+/* th,tr,td
+{
+    border: 1px solid black;
+
+} */
+table
+{
+    color: aliceblue;
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+th,td{
+    text-align: left;
+    vertical-align: bottom;
+border-bottom: 5px rgb(245, 37, 13);
+}
+tr:hover
+{
+    background: #be5a5a;
+}
+tr:nth-child(odd)
+{
+background: #252222;
+}
+tr:nth-child(even)
+{
+background: #524e4e;
+}

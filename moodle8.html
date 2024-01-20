@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="valid" method="post" onsubmit="  evenOrodd()">
+        enter the min value: <input type="number" name="minvalue">
+        enter the max value: <input type="number" name="maxvalue">
+        <input type="submit" value="submit">
+     </form><br>
+    <script>
+        function evenOrodd(){            
+        let min=document.valid.minvalue.value;
+        let max=document.valid.maxvalue.value;
+        alert(`${min} ${max}`)
+
+        for(min;min<=max;min++)
+        {
+            if(min/2==0){
+                document.write(`Sample output :<br>"${min} is even"<br>`);
+            }
+            else{
+                document.write(`"${min} is odd"<br>`);
+
+            }
+        }
+    } 
+    </script>
+    
+    
+</body>
+</html>

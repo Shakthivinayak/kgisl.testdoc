@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown</title>
+</head>
+<body>
+    <div>
+
+        Enter an num: <input type="text" id="num"><br><br>
+        <button onclick=toDo()>submit</button>
+        <select id="drop">
+        </select>
+    </div>
+        
+    <script>
+                    
+        function toDo(){
+            let num = document.getElementById("num").value;
+            let sel = document.getElementById("drop");
+            for (let i = 0; i <= num; i++) {
+                let opt = document.createElement("option");
+                opt.textContent = i;
+                sel.appendChild(opt);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+.box
+{
+    border: 1px solid rgb(252, 251, 251);
+    width: 90%;
+    height:100%;
+    text-align: center;
+    margin: 20px 20px 20px 70px;
+}
+.box1
+{
+    border: 1px solid rgb(170, 74, 19);
+    width: 98%;
+    height: 50px;
+margin: 5px 1px 10px 2px;
+text-align: center;
+}
+.box2
+{
+    border: 1px solid rgb(43, 255, 0);
+    width: 95%;
+    height: 128px;
+    float: right;
+    margin: 1px 10px 10px 10px;
+    text-align: center;
+
+}
+.box4
+{
+    border: 1px solid rgb(180, 95, 39);
+    width: 95%;
+    height: 180px;
+    float: right ;
+    margin: 1px 10px 10px 10px;
+    text-align: center;
+}
+.box5
+{
+    border: 1px solid rgb(30, 180, 17);
+    width: 95%;
+    height: 116px;
+    float: right;
+    margin: 1px 10px 10px 10px;
+    text-align: center;
+
+}
+
+.boxleft
+{
+    border: 1px solid rgb(243, 34, 104);
+    width: 60%;
+    height: 100%;
+ margin: 10px 10px 10px 4px; 
+ text-align: center;
+}
+.boxright
+{
+    border: 1px solid rgb(250, 247, 247);
+    width: 38%;
+    height: 100%;
+ margin: 1px 10px 10px 4px; 
+ text-align: center;
+ float: right;
+}
+.box3a
+{
+    border: 1px solid rgb(0, 255, 34);
+    width: 99%;
+    height: 100px;
+margin: 10px 10px 10px 4px; 
+text-align: center;
+}
+.box3b
+{
+    border: 1px solid rgb(150, 136, 122);
+    width: 99%;
+    height: 200px;
+ margin: 10px 10px 10px 4px; 
+ text-align: center;
+
+}
+.box3c
+{
+    border: 1px solid rgb(230, 140, 7);
+    width: 99%;
+    height: 100px;
+ margin: 10px 10px 10px 4px; 
+ text-align: center;
+}
+.box6
+{
+    border: 1px solid rgb(19, 34, 170);
+    width: 98%;
+    height: 50px;
+    margin: 20px 20px 20px 2px;
+text-align: center;
+}

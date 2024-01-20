@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(4, 4, 36);
+}
+.box1
+{
+    width: 60%;
+    height: 430px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 18%;
+    padding: 15px;
+    border-radius: 20px;
+    background-image:linear-gradient(red,pink,blue);
+}
+
+.box2
+{
+   
+    width: 30%;
+    height: 350px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: black;
+    float: left;
+}
+.box2:hover{
+    transform: matrix(1,0.3,0,1,1,0);
+
+}
+.box3
+{
+    width: 50%;
+    height: 350px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: black;
+    float:left;
+    color: white;
+}
+img
+{
+    width: 200px;
+    height:200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 100%;
+}
+
+p
+{
+    color: white;
+    text-align: center;
+
+}
+.table{
+    padding: 50px;
+margin-left: 30px;
+}
+h3{
+    text-align: center;
+}
+.shape
+{
+    width: 30%;
+    height: 350px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    background-image:repeating-linear-gradient(red 5px,pink 5px,pink 10px,blue 15px,blue 20px,yellow 25px);
+    transform: matrix(1,0.3,0,1,1,0);
+}

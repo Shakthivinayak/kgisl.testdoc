@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+div
+{
+    font-size:xx-large;
+    grid-gap: 200px;
+  padding: 20px;
+text-align: center;}
+.container
+{
+    background: rgb(247, 247, 241);
+    display: grid;
+    grid-template-rows: 20vh 40vh 20vh;
+    gap: 20px;
+    grid-template-areas: "nav h h h "
+                         "nav c1 c2 c3"
+                         "nav c1 c2 c4"
+                         "nav f f f";
+
+}
+.item1
+{
+    grid-area: h;
+    background: #ee0909;
+}
+.item2
+{
+    grid-area: nav;
+    background: #fa3636;
+
+}
+.item3
+{
+    grid-area: c1;
+    background: #f57474;
+
+}
+.item4
+{
+    grid-area: c2;
+    background: #ee9595;
+
+}
+.item5
+{
+    grid-area: c3;
+    background: #f3cdcd;
+
+}
+.item6
+{
+    grid-area: c4;
+    background: #f3cdcd;
+
+}
+.item7
+{
+    grid-area: f;
+    background: #f3cdcd;
+
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item1">head</div>
+    <div class="item2">navigation</div>
+    <div class="item3">card1</div>
+    <div class="item4">card2</div>
+    <div class="item5">card3</div> 
+    <div class="item6">card4</div>
+    <div class="item7">footer</div> 
+</div>
+
+</body>
+</html>

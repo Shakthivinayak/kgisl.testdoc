@@ -1,0 +1,14 @@
+h1
+{
+    font-size: 70pt;
+    color: rgb(221, 229, 236);
+    text-align: center;
+    text-shadow: 1px 10px  #b30f0fce;
+}
+
+p
+{
+    font-size: 20pt;
+    color: aliceblue;
+    text-shadow: 1px 10px  #a75959;
+}

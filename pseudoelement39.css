@@ -1,0 +1,21 @@
+p::before 
+{
+    content: "hello ";
+}
+p::after
+{
+    content: "bye";
+}
+p::first-line
+{
+    color: #d61f1f;
+}
+p::first-letter
+{
+    color: rgb(7, 134, 134);
+}
+input::placeholder
+{
+    color: rgb(206, 119, 14);
+}
+
